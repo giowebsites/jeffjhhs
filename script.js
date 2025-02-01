@@ -29,3 +29,8 @@ document.getElementById('game2').addEventListener('click', function() {
 document.getElementById('game3').addEventListener('click', function() {
     loadGame('https://www.minijuegos.com/juego/juego-3');  // Cambia esta URL por el juego 3
 });
+// script.js
+
+function openGame(url) {
+    window.open(url, '_blank'); // Abre el enlace en una nueva pestaña
+}
