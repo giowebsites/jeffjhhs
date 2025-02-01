@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff JHHS - Juegos Desbloqueados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jeff JHHS - Juegos Desbloqueados</h1>
+    </header>
+
+    <div class="container">
+        <h2>Lista de Juegos</h2>
+        <div class="games">
+            <!-- Juego 1: Gun Spin -->
+            <div class="game-item" id="gunSpin">
+                <img src="https://via.placeholder.com/300x200.png?text=Gun+Spin" alt="Gun Spin">
+                <p>Gun Spin</p>
+            </div>
+            <!-- Juego 2: Otro juego -->
+            <div class="game-item" id="game2">
+                <img src="https://via.placeholder.com/300x200.png?text=Otro+Juego" alt="Otro Juego">
+                <p>Juego 2</p>
+            </div>
+            <!-- Juego 3: Otro juego -->
+            <div class="game-item" id="game3">
+                <img src="https://via.placeholder.com/300x200.png?text=Juego+3" alt="Juego 3">
+                <p>Juego 3</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para cargar el juego -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeGame">&times;</span>
+            <iframe id="gameIframe" src="" width="100%" height="500px" style="border: none;"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jeff JHHS. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
